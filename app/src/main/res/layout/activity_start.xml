@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.funpiloten.snakeimpact3.StartActivity">
+
+    <TextView
+        android:text="Raumschiff Independence\n====================="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:background="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorgreen"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:text=">> Lade BIOS:OK\n>> RAM Test:OK\n>>\n>> Lade BOOTSEQUENZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:background="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorgreen"
+        android:padding="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:text="E I N G A B E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@drawable/buttonblue"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
